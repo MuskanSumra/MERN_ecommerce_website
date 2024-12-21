@@ -1,4 +1,3 @@
-# SoftwareProject
 E-Commerce Platform
 An E-Commerce Web Application built with React, Node.js, Express, and MongoDB. This platform provides a seamless shopping experience for users, complete with authentication, product browsing, a shopping cart, and order checkout features.
 
@@ -22,6 +21,7 @@ Admin Dashboard
 
 Manage products, users, and orders.
 View inventory and sales analytics.
+
 Technologies Used
 Frontend
 React.js: For building a responsive and interactive user interface.
@@ -32,44 +32,38 @@ Node.js: Backend runtime environment.
 Express.js: Web framework for building RESTful APIs.
 MongoDB: NoSQL database for efficient data management.
 Mongoose: ORM for MongoDB to interact with the database.
+
+
 Setup Instructions
 Prerequisites
 Node.js installed (v16+ recommended)
 MongoDB installed locally or a MongoDB Atlas cluster.
 Installation
 Clone the repository:
-
-bash
-Copy code
 git clone https://github.com/username/ecommerce-platform.git
 cd ecommerce-platform
-Install dependencies for both frontend and backend:
 
-bash
-Copy code
-cd client
+Install dependencies for both frontend and backend:
+cd frontend
 npm install
-cd ../server
+cd backend
 npm install
+
 Set up environment variables:
 
 Create a .env file in the server directory.
 Add the following variables:
-makefile
-Copy code
 MONGO_URI=<your_mongo_connection_string>
 JWT_SECRET=<your_jwt_secret>
 PORT=5000
-Start the development servers:
 
-Run the backend server:
-bash
-Copy code
+Start the development servers:
+Run the backend server
 cd server
 npm run dev
-Run the frontend server:
-bash
-Copy code
+
+Run the frontend server
 cd client
 npm start
-Access the application at http://localhost:5173
+
+Access the application at http://localhost:3000.
